@@ -7,10 +7,11 @@
           ~_|___|__
 */
 void setup() {
-  pinMode(7, OUTPUT);
-  pinMode(8, OUTPUT);
+  pinMode(7,OUTPUT);
+  pinMode(8,OUTPUT);
 }
 void loop() {
+  /* sinal digital */
   /*
     digitalWrite(7,LOW);
     digitalWrite(8,LOW);
@@ -22,12 +23,13 @@ void loop() {
     digitalWrite(7,HIGH);
     delay(5000);
   */
-  analogWrite(7, 100);
+  /* sinal analógico */
+  analogWrite(7,100);
   delay(1000);
-  analogWrite(8, 150);
+  analogWrite(8,150);
   delay(1000);
-  analogWrite(8, 200);
+  analogWrite(8,200);
   delay(1000);
-  analogWrite(7, 255);
+  analogWrite(7,255);
   delay(100);
 }
